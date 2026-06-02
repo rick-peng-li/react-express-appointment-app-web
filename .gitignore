@@ -1,0 +1,48 @@
+# dependencies
+node_modules/
+front-end/node_modules/
+back-end/node_modules/
+
+# environment variables
+.env
+.env.*
+!.env.example
+front-end/.env
+front-end/.env.*
+back-end/.env
+back-end/.env.*
+
+# production builds
+build/
+front-end/build/
+dist/
+coverage/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# misc
+.tmp/
+temp/
+.cache/
